@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Eaglercraft 26.0</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/gh/FogNetwork/ABC/index.js"></script>
+</head>
+<body>
+<center>
+
+<h1 class="title">Eaglercraft 26.0</h1>
+<h2>Constructed by ACMG</h2>
+<h3>Find more webpages at tinyurl.com/acoolermathgames</h3>
+<h4>Special Thanks to FogNetwork and o_xer</h4>
+<textarea id="code" spellcheck="false">
+//Creates new ABC
+var page = new ABC({
+    "type": "blank", //Blank, blob, or overwrite
+    "url": "https://ankicozmo321.github.io/260" //Any url
+})
+//Set the type
+page.setType("blank")
+//Set the url
+page.setUrl("https://ankicozmo321.github.io/260")
+//Get iframe code
+console.log(page.getCode())
+//Open page
+page.open()</textarea>
+
+<br>
+
+<button class="run" onclick="eval(document.getElementById('code').value)">Run</button>
+</center>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+font-family: "Valley Sans";
+}
+
+center {
+display: block;
+text-align: -webkit-center;
+}
+
+.title {
+font-size: 60px;
+color:black
+}
+
+body {
+background-color: #3b88d4;
+color: darkgrey;
+-webkit-text-stroke: 0.01px lightgrey;
+}
+
+#code {
+width: 0px;
+height: 0px;
+resize: none;
+background-color: #2d2f31;
+}
+
+
+
+.run {
+height: 40px;
+width: 80px;
+font-size: 30px;
+color: black;
+-webkit-text-stroke: 1px black;
+cursor: pointer;
+margin: 10px;
+background: transparent;
+border: 2px solid white;
+border-radius: 2.5px;
+}
+</style>
+
+</body>
+</html>
